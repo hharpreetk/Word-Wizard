@@ -1,0 +1,82 @@
+<!-- text-to-text.ejs -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text to Text Conversion</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Comic Neue"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Include the header partial -->
+    <%- include('../partials/header') %>
+
+    <!-- Include the main content -->
+    <main class="text-to-text">
+      <div class="container">
+        <h1>Text to Text Conversion</h1>
+         <div class="content-container">
+          <textarea
+            id="textInput"
+            rows="10"
+            cols="50"
+            placeholder="Enter text"
+            required
+          ></textarea>
+          <!-- Error text container -->
+          <div id="errorText"></div>
+          <!-- Character and Word Count -->
+          <div class="count-container">
+            <p>Character Count: <span id="charCount">0</span></p>
+            <p>Word Count: <span id="wordCount">0</span></p>
+          </div>
+          <div id="textConversionResultContainer" style="display: none;" class="text-conversion-result-container">
+            <!-- Result of the text conversion will be shown here -->
+          </div>
+          <!-- Buttons for different text conversions -->
+          <div class="button-container">
+            <button data-action="upper">
+              Upper Case
+            </button>
+            <button data-action="lower">
+              Lower Case
+            </button>
+            <button data-action="capitalize">
+              Capitalize
+            </button>
+            <button data-action="trim">
+              Trim Text
+            </button>
+            <button data-action="clean">
+              Clean Spaces
+            </button>
+            <button data-action="hashtags">
+              Hashtags
+            </button>
+            <button data-action="order">
+              Order Text
+            </button>
+            <button data-action="reverse">
+              Text Reverser
+            </button>
+            <button data-action="remove-accents">
+              Remove Accents
+            </button>
+            <button data-action="remove-duplicates">
+              Remove Duplicate Lines
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Include the footer partial -->
+    <%- include('../partials/footer') %>
+
+    <!-- Include the main client-side script -->
+    <script type="module" src="js/text-to-text.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!-- index.ejs -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text to Speech Conversion</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Comic Neue"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Include the header partial -->
+    <%- include('../partials/header') %>
+
+    <!-- Include the main content -->
+    <main class="home">
+      <div class="container">
+        <h1>Welcome to Word Wizard</h1>
+        <p>
+          Word Wizard is an application that allows you to perform various text
+          manipulations and conversions on your text.
+        </p>
+        <p style="margin-top:10px">To get started, choose one of the following options:</p>
+        <ul>
+          <li><a href="/text-to-speech">Text to Speech</a></li>
+          <li><a href="/text-to-text">Text to Text Conversion</a></li>
+          <li><a href="/text-summarizer">Text Summarizer</a></li>
+          <li><a href="/text-analyzer">Text Analyzer</a></li>
+          <!-- Add more links to other features if needed -->
+        </ul>
+      </div>
+    </main>
+
+    <!-- Include the footer partial -->
+    <%- include('../partials/footer') %>
+
+    <!-- Include the main client-side script -->
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>

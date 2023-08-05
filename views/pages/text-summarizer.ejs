@@ -1,0 +1,81 @@
+<!-- text-summarizer.ejs -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Summarizer</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Comic Neue"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Include the header partial -->
+    <%- include('../partials/header') %>
+
+    <!-- Include the main content -->
+    <main class="text-summarizer">
+      <div class="container">
+        <h1>Text Summarizer</h1>
+        <form action="/text-summarizer" method="post">
+          <div class="content-container">
+            <textarea
+              id="textToSummarize"
+              name="textToSummarize"
+              rows="10"
+              cols="40"
+              placeholder="Enter Text to Summarize"
+              required
+            >
+<%= locals.textToSummarize || '' %></textarea
+            >
+            <div class="count-container">
+              <p>
+                Character Count:
+                <span id="charCount"><%= locals.charCount || 0 %></span>
+              </p>
+              <p>
+                Word Count:
+                <span id="wordCount"><%= locals.wordCount || 0 %></span>
+              </p>
+            </div>
+            <label for="numberOfSentences">Number of Sentences:</label>
+            <input
+              type="number"
+              id="numberOfSentences"
+              name="numberOfSentences"
+              value="<%= locals.numberOfSentences || '' %>"
+              required
+            />
+
+            <button type="submit">Summarize</button>
+          </div>
+        </form>
+
+        <div class="summary-result-container">
+          <div class="summary-result-wrapper">
+            <% if (locals.rankSummary) { %>
+            <p>Remaining Percentage: <%= locals.rankRemainingPercentage %>%</p>
+            <!-- Display frequency summary -->
+            <textarea rows="10" cols="40"><%= locals.rankSummary %></textarea>
+            <% } %>
+          </div>
+          <div>
+            <!-- Display error -->
+            <% if (locals.error) { %>
+            <p><%= locals.error %></p>
+            <% } %>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Include the footer partial -->
+    <%- include('../partials/footer') %>
+
+    <!-- Include the main client-side script -->
+    <script type="module" src="js/text-summarizer.js"></script>
+  </body>
+</html>
