@@ -14,22 +14,22 @@
   <%- include('../partials/header') %>
 
   <!-- Include the main content -->
-  <main>
+  <main class="page-text-analyzer">
     <div class="container">
       <h1>Text Analyzer</h1>
       <form id="textAnalyzerForm" action="/analyze" method="post">
         <div class="content-container">
-          <textarea id="textInput" name="textInput" rows="10" cols="40" placeholder="Enter Text" required>
+          <textarea id="textAnalyzerTextInput" name="text" rows="10" cols="40" placeholder="Enter Text" required>
 <%= locals.textInput || '' %></textarea>
           <!-- Character and Word Count -->
           <div class="count-container">
             <p>
               Character Count:
-              <span id="charCount"><%= locals.charCount || 0 %></span>
+              <span id="textAnalyzerCharCount"><%= locals.charCount || 0 %></span>
             </p>
             <p>
               Word Count:
-              <span id="wordCount"><%= locals.wordCount || 0 %></span>
+              <span id="textAnalyzerWordCount"><%= locals.wordCount || 0 %></span>
             </p>
           </div>
           <div class="button-container">

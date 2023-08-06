@@ -3,7 +3,7 @@
 const { SummarizerManager } = require("node-summarizer");
 
 exports.summarizeText = async (req, res) => {
-  const textToSummarize = req.body.textToSummarize; // Assuming your form field name is "textToSummarize"
+  const textToSummarize = req.body.text; // Assuming your form field name is "textToSummarize"
   const numberOfSentences = parseInt(req.body.numberOfSentences);
 
   // Initialize SummarizerManager

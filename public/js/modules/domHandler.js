@@ -8,7 +8,7 @@ function setupConversionButtons() {
   conversionButtons.forEach((button) => {
     button.addEventListener("click", () => {
       const action = button.getAttribute("data-action");
-      const textInput = document.getElementById("textInput").value;
+      const textInput = document.getElementById("textToTextTextInput").value;
 
       if (validateTextInput(textInput)) {
         const resultText = convertText(action, textInput);

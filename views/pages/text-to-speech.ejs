@@ -15,23 +15,23 @@
     <%- include('../partials/header') %>
 
     <!-- Include the main content -->
-    <main class="text-to-speech">
+    <main class="page-text-to-speech">
       <div class="container">
         <h1>Text to Speech Conversion</h1>
         <form action="/text-to-speech" method="post" id="textToSpeechForm">
           <div class="content-container">
             <textarea
+              id="textToSpeechTextInput"
               name="text"
               rows="10"
               cols="50"
               placeholder="Enter text"
-              id="textInput"
               required
             ></textarea>
             <div id="errorText"></div>
             <div class="count-container">
-              <p>Character Count: <span id="charCount">0</span></p>
-              <p>Word Count: <span id="wordCount">0</span></p>
+              <p>Character Count: <span id="textToSpeechCharCount">0</span></p>
+              <p>Word Count: <span id="textToSpeechWordCount">0</span></p>
             </div>
             <select name="language" id="languageSelect">
               <option value="af">Afrikaans</option>

@@ -7,9 +7,9 @@ import { toggleNav, resetNavOnResize } from "./modules/navMenuHandler.js";
 const form = document.getElementById("textToSpeechForm");
 const speechAudio = document.getElementById("speechAudio");
 
-const textInput = document.getElementById("textInput");
-const charCount = document.getElementById("charCount");
-const wordCount = document.getElementById("wordCount");
+const textInput = document.getElementById("textToSpeechTextInput");
+const charCount = document.getElementById("textToSpeechCharCount");
+const wordCount = document.getElementById("textToSpeechWordCount");
 
 textInput.addEventListener("input", () => {
   updateCounts(textInput, charCount, wordCount);

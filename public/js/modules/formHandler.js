@@ -18,7 +18,7 @@ function validateForm(textInput) {
 }
 
 async function handleSpeechRequest(form, speechAudio) {
-  if (validateForm(form.textInput)) {
+  if (validateForm(form.text)) {
     try {
       const formData = new FormData(form);
       const response = await fetch("/text-to-speech", {

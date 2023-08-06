@@ -87,7 +87,7 @@ function performNamedEntityRecognition(text) {
 
 // controller function for text analysis
 exports.analyzeText = (req, res) => {
-  const textInput = req.body.textInput;
+  const textInput = req.body.text;
   const selectedFeature = req.body.feature;
 
   // Calculate the word and character count

@@ -16,14 +16,14 @@
     <%- include('../partials/header') %>
 
     <!-- Include the main content -->
-    <main class="text-summarizer">
+    <main class="page-text-summarizer">
       <div class="container">
         <h1>Text Summarizer</h1>
         <form action="/text-summarizer" method="post">
           <div class="content-container">
             <textarea
-              id="textToSummarize"
-              name="textToSummarize"
+              id="textSummarizerTextInput"
+              name="text"
               rows="10"
               cols="40"
               placeholder="Enter Text to Summarize"
@@ -34,11 +34,11 @@
             <div class="count-container">
               <p>
                 Character Count:
-                <span id="charCount"><%= locals.charCount || 0 %></span>
+                <span id="textSummarizerCharCount"><%= locals.charCount || 0 %></span>
               </p>
               <p>
                 Word Count:
-                <span id="wordCount"><%= locals.wordCount || 0 %></span>
+                <span id="textSummarizerWordCount"><%= locals.wordCount || 0 %></span>
               </p>
             </div>
             <label for="numberOfSentences">Number of Sentences:</label>
