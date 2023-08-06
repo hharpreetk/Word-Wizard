@@ -4,10 +4,10 @@ const express = require("express");
 const ejs = require("ejs");
 const { join } = require("path");
 
-//import controllers
-const textToSpeechController = require("./controllers/textToSpeechController");
-const textSummarizerController = require("./controllers/textSummarizerController");
-const textAnalyzerController = require("./controllers/textAnalyzerController");
+// Import route files
+const textToSpeechRoutes = require('./routes/textToSpeechRoutes');
+const textSummarizerRoutes = require('./routes/textSummarizerRoutes');
+const textAnalyzerRoutes = require('./routes/textAnalyzerRoutes');
 
 const app = express();
 app.use(express.urlencoded({ extended: true }));
@@ -23,12 +23,10 @@ app.use((req, res, next) => {
   next();
 });
 
-// Define routes using the controller functions
-app.post("/text-to-speech", textToSpeechController.textToSpeech);
-
-app.post("/text-summarizer", textSummarizerController.summarizeText);
-
-app.post("/analyze", textAnalyzerController.analyzeText);
+// Use route files
+app.use('/text-to-speech', textToSpeechRoutes);
+app.use('/text-summarizer', textSummarizerRoutes);
+app.use('/analyze', textAnalyzerRoutes);
 
 // Define routes to display pages
 app.get("/", async (req, res) => {
