@@ -1,4 +1,4 @@
-// formHandler.js
+// public/js/modules/formHandler.js
 
 function validateForm(textInput) {
   const errorText = document.getElementById("errorText");

@@ -1,4 +1,4 @@
-// navbar.js
+// public/js/modules/navbar.js
 
 /**
  * Toggles the navigation menu and hamburger icon.

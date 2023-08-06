@@ -1,4 +1,4 @@
-// updateCount.js
+// public/js/modules/updateCount.js
 
 // Function to update the character and word counts
 function updateCounts(textInput, charCount, wordCount) {
