@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="216.90186578638023" height="100.8274963378906"
+    viewBox="0 30 270 122.6465064927379"
+    class="css-1j8o68f">
+    <defs id="SvgjsDefs1574">
+        <linearGradient id="SvgjsLinearGradient1583">
+            <stop id="SvgjsStop1584" stop-color="#1f8bff" offset="0"></stop>
+            <stop id="SvgjsStop1585" stop-color="#1f8bff" offset="0.5"></stop>
+            <stop id="SvgjsStop1586" stop-color="#1f8bff" offset="1"></stop>
+        </linearGradient>
+        <linearGradient id="SvgjsLinearGradient1587">
+            <stop id="SvgjsStop1588" stop-color="#1f8bff" offset="0"></stop>
+            <stop id="SvgjsStop1589" stop-color="#1f8bff" offset="0.5"></stop>
+            <stop id="SvgjsStop1590" stop-color="#1f8bff" offset="1"></stop>
+        </linearGradient>
+        <linearGradient id="SvgjsLinearGradient1591">
+            <stop id="SvgjsStop1592" stop-color="#1f8bff" offset="0"></stop>
+            <stop id="SvgjsStop1593" stop-color="#1f8bff" offset="0.5"></stop>
+            <stop id="SvgjsStop1594" stop-color="#1f8bff" offset="1"></stop>
+        </linearGradient>
+        <linearGradient id="SvgjsLinearGradient1595">
+            <stop id="SvgjsStop1596" stop-color="#1f8bff" offset="0"></stop>
+            <stop id="SvgjsStop1597" stop-color="#1f8bff" offset="0.5"></stop>
+            <stop id="SvgjsStop1598" stop-color="#1f8bff" offset="1"></stop>
+        </linearGradient>
+    </defs>
+    <g id="SvgjsG1576" featurekey="nameFeature-0"
+        transform="matrix(1.8491123634277762,0,0,1.8491123634277762,29.674557063439373,18.810653402317655)"
+        fill="url(#SvgjsLinearGradient1587)">
+        <path
+            d="M25.4 25.72 l2.68 -13.72 l6.4 0 l-5.44 28 l-6.4 0 l-3.96 -15.4 l-3.92 15.4 l-6.44 0 l-5.44 -28 l6.44 0 l2.64 13.72 l3.52 -13.72 l6.44 0 z M55.08 12 c2.72 0 5.04 2.24 5.04 5 l-0.08 18.04 c0 2.76 -2.24 4.96 -5 4.96 l-9.84 0 c-2.72 0 -4.96 -2.2 -4.96 -4.96 l0 -18.04 c0 -2.76 2.24 -5 4.96 -5 l9.88 0 z M53.64 33.6 l0 -15.16 l-7 0 l0 15.16 l7 0 z M80.6 12 c2.76 0 5 2.24 5 5 l0 10.52 c0 2.12 -1.32 3.92 -3.16 4.64 l3.16 7.84 l-6.8 0 l-3.04 -7.48 l-3.56 0 l0 7.48 l-6.4 0 l0 -28 l14.8 0 z M77.88 26.08 c0.72 0 1.32 -0.56 1.32 -1.28 l0 -5.08 c0 -0.72 -0.6 -1.28 -1.32 -1.28 l-5.68 0 l0 7.64 l5.68 0 z M106.08 12 c2.72 0 4.96 2.24 4.96 5 l0 18 c0 2.76 -2.24 5 -4.96 5 l-14.84 0 l0 -28 l14.84 0 z M104.64 32.24 l0 -12.48 c0 -0.76 -0.6 -1.32 -1.32 -1.32 l-5.68 0 l0 15.16 l5.68 0 c0.72 0 1.32 -0.6 1.32 -1.36 z"></path>
+    </g>
+    <g id="SvgjsG1577" featurekey="nameFeature-1"
+        transform="matrix(1.395868241931468,0,0,1.395868241931468,30.979899969094774,86.24958375922976)"
+        fill="url(#SvgjsLinearGradient1591)">
+        <path
+            d="M25.4 25.72 l2.68 -13.72 l6.4 0 l-5.44 28 l-6.4 0 l-3.96 -15.4 l-3.92 15.4 l-6.44 0 l-5.44 -28 l6.44 0 l2.64 13.72 l3.52 -13.72 l6.44 0 z M46.64 12 l0 28 l-6.4 0 l0 -28 l6.4 0 z M70 12 l0 6.44 l-10.08 15.16 l10.08 0 l0 6.4 l-17.6 0 l0 -6.4 l10.12 -15.16 l-10.12 0 l0 -6.44 l17.6 0 z M88.96000000000001 12 l7.8 28 l-6.4 0 l-1.12 -4.04 l-6.92 0 l-1.12 4.04 l-6.4 0 l7.8 -28 l6.36 0 z M84.12 29.439999999999998 l3.32 0 l-1.68 -5.96 z M115.72 12 c2.76 0 5 2.24 5 5 l0 10.52 c0 2.12 -1.32 3.92 -3.16 4.64 l3.16 7.84 l-6.8 0 l-3.04 -7.48 l-3.56 0 l0 7.48 l-6.4 0 l0 -28 l14.8 0 z M113 26.08 c0.72 0 1.32 -0.56 1.32 -1.28 l0 -5.08 c0 -0.72 -0.6 -1.28 -1.32 -1.28 l-5.68 0 l0 7.64 l5.68 0 z M141.2 12 c2.72 0 4.96 2.24 4.96 5 l0 18 c0 2.76 -2.24 5 -4.96 5 l-14.84 0 l0 -28 l14.84 0 z M139.76 32.24 l0 -12.48 c0 -0.76 -0.6 -1.32 -1.32 -1.32 l-5.68 0 l0 15.16 l5.68 0 c0.72 0 1.32 -0.6 1.32 -1.36 z"></path>
+    </g>
+</svg>
