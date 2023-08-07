@@ -19,7 +19,7 @@
       <h1>Text Analyzer</h1>
       <form id="textAnalyzerForm" action="/analyze" method="post">
         <div class="content-container">
-          <textarea id="textAnalyzerTextInput" name="text" rows="10" cols="40" placeholder="Enter Text" required>
+          <textarea id="textAnalyzerTextInput" class="textarea" name="text" rows="10" cols="40" placeholder="Enter Text" required>
 <%= locals.textInput || '' %></textarea>
           <!-- Character and Word Count -->
           <div class="count-container">
@@ -33,16 +33,16 @@
             </p>
           </div>
           <div class="button-container">
-            <button type="submit" name="feature" value="wordFrequency">
+            <button class="button" type="submit" name="feature" value="wordFrequency">
               Word Frequency Analysis
             </button>
-            <button type="submit" name="feature" value="sentimentAnalysis">
+            <button class="button" type="submit" name="feature" value="sentimentAnalysis">
               Sentiment Analysis
             </button>
-            <button type="submit" name="feature" value="posAnalysis">
+            <button  class="button" type="submit" name="feature" value="posAnalysis">
               Part-of-Speech Analysis
             </button>
-            <button type="submit" name="feature" value="ner">
+            <button  class="button" type="submit" name="feature" value="ner">
               Named Entity Recognition
             </button>
           </div>

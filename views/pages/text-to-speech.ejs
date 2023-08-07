@@ -22,18 +22,19 @@
           <div class="content-container">
             <textarea
               id="textToSpeechTextInput"
+              class="textarea"
               name="text"
               rows="10"
               cols="50"
               placeholder="Enter text"
               required
             ></textarea>
-            <div id="errorText"></div>
+            <div id="errorText" class="error-text"></div>
             <div class="count-container">
               <p>Character Count: <span id="textToSpeechCharCount">0</span></p>
               <p>Word Count: <span id="textToSpeechWordCount">0</span></p>
             </div>
-            <select name="language" id="languageSelect">
+            <select name="language" id="languageSelect" class="language-select">
               <option value="af">Afrikaans</option>
               <option value="sq">Albanian</option>
               <option value="ar">Arabic</option>
@@ -89,20 +90,26 @@
 
             <div class="radio-container">
               <div class="radio-wrapper">
-                <input type="radio" name="speed" value="normal" checked />
+                <input
+                  type="radio"
+                  name="speed"
+                  value="normal"
+                  class="radio"
+                  checked
+                />
                 <label for="normal">Normal</label>
               </div>
               <div class="radio-wrapper">
-                <input type="radio" name="speed" value="slow" />
+                <input type="radio" name="speed" value="slow" class="radio" />
                 <label for="slow">Slow</label>
               </div>
             </div>
 
-            <button type="submit">Convert to Speech</button>
+            <button class="button" type="submit">Convert to Speech</button>
           </div>
         </form>
         <!-- Add the audio element to play the speech -->
-        <audio id="speechAudio" controls>
+        <audio id="speechAudio" class="speech-audio" controls>
           <!-- The "src" attribute will be set dynamically via JavaScript -->
         </audio>
       </div>

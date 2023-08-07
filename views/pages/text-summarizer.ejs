@@ -23,6 +23,7 @@
           <div class="content-container">
             <textarea
               id="textSummarizerTextInput"
+              class="textarea"
               name="text"
               rows="10"
               cols="40"
@@ -44,13 +45,14 @@
             <label for="numberOfSentences">Number of Sentences:</label>
             <input
               type="number"
+              class="number-input"
               id="numberOfSentences"
               name="numberOfSentences"
               value="<%= locals.numberOfSentences || '' %>"
               required
             />
 
-            <button type="submit">Summarize</button>
+            <button type="submit" class="button">Summarize</button>
           </div>
         </form>
 
@@ -59,7 +61,7 @@
             <% if (locals.rankSummary) { %>
             <p>Remaining Percentage: <%= locals.rankRemainingPercentage %>%</p>
             <!-- Display frequency summary -->
-            <textarea rows="10" cols="40"><%= locals.rankSummary %></textarea>
+            <textarea class="textarea" rows="10" cols="40"><%= locals.rankSummary %></textarea>
             <% } %>
           </div>
           <div>

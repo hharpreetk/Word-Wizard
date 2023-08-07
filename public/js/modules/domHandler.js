@@ -42,7 +42,7 @@ function displayResult(resultText) {
   const resultContainer = document.getElementById(
     "textConversionResultContainer"
   );
-  resultContainer.innerHTML = `<textarea rows="10" cols="50">${resultText}</textarea>`;
+  resultContainer.innerHTML = `<textarea class="textarea" rows="10" cols="50">${resultText}</textarea>`;
   resultContainer.style.display = "block";
 }
 

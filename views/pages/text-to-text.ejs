@@ -21,13 +21,14 @@
         <div class="content-container">
           <textarea
             id="textToTextTextInput"
+            class="textarea"
             rows="10"
             cols="50"
             placeholder="Enter text"
             required
           ></textarea>
           <!-- Error text container -->
-          <div id="errorText"></div>
+          <div id="errorText" class="error-text"></div>
           <!-- Character and Word Count -->
           <div class="count-container">
             <p>Character Count: <span id="textToTextCharCount">0</span></p>
@@ -41,34 +42,34 @@
           </div>
           <!-- Buttons for different text conversions -->
           <div class="button-container">
-            <button class="conversion-button" data-action="upper">
+            <button class="button conversion-button" data-action="upper">
               Upper Case
             </button>
-            <button class="conversion-button" data-action="lower">
+            <button class="button conversion-button" data-action="lower">
               Lower Case
             </button>
-            <button class="conversion-button" data-action="capitalize">
+            <button class="button conversion-button" data-action="capitalize">
               Capitalize
             </button>
-            <button class="conversion-button" data-action="trim">
+            <button class="button conversion-button" data-action="trim">
               Trim Text
             </button>
-            <button class="conversion-button" data-action="clean">
+            <button class="button conversion-button" data-action="clean">
               Clean Spaces
             </button>
-            <button class="conversion-button" data-action="hashtags">
+            <button class="button conversion-button" data-action="hashtags">
               Hashtags
             </button>
-            <button class="conversion-button" data-action="order">
+            <button class="button conversion-button" data-action="order">
               Order Text
             </button>
-            <button class="conversion-button" data-action="reverse">
+            <button class="button conversion-button" data-action="reverse">
               Text Reverser
             </button>
-            <button class="conversion-button" data-action="remove-accents">
+            <button class="button conversion-button" data-action="remove-accents">
               Remove Accents
             </button>
-            <button class="conversion-button" data-action="remove-duplicates">
+            <button class="button conversion-button" data-action="remove-duplicates">
               Remove Duplicate Lines
             </button>
           </div>
