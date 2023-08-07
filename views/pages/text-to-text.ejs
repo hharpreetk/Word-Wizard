@@ -4,11 +4,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Word Wizard - Text to Text Conversion</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Comic Neue"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
+    <%- include('../partials/styles') %>
   </head>
   <body>
     <!-- Include the header partial -->
@@ -66,10 +62,16 @@
             <button class="button conversion-button" data-action="reverse">
               Text Reverser
             </button>
-            <button class="button conversion-button" data-action="remove-accents">
+            <button
+              class="button conversion-button"
+              data-action="remove-accents"
+            >
               Remove Accents
             </button>
-            <button class="button conversion-button" data-action="remove-duplicates">
+            <button
+              class="button conversion-button"
+              data-action="remove-duplicates"
+            >
               Remove Duplicate Lines
             </button>
           </div>
