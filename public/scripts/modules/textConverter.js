@@ -1,4 +1,4 @@
-// public/js/modules/textConverter.js
+// public/scripts/modules/textConverter.js
 
 function convertText(action, textInput) {
   let resultText = "";

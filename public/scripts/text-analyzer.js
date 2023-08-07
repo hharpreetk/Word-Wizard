@@ -1,4 +1,4 @@
-// public/js/text-analyzer.js
+// public/scripts/text-analyzer.js
 
 import { toggleNav, resetNavOnResize } from "./modules/navMenuHandler.js";
 import { updateCounts } from "./modules/countUpdater.js";

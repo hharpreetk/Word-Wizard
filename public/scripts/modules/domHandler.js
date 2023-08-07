@@ -1,4 +1,4 @@
-// public/js/modules/domHandler.js
+// public/scripts/modules/domHandler.js
 
 import { convertText } from "./textConverter.js";
 

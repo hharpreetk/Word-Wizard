@@ -1,3 +1,3 @@
-// public/js/index.js
+// public/scripts/index.js
 
 import { toggleNav, resetNavOnResize } from "./modules/navMenuHandler.js";

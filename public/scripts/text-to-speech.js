@@ -1,4 +1,4 @@
-// public/js/text-to-speech.js
+// public/scripts/text-to-speech.js
 
 import { handleSpeechRequest } from "./modules/formHandler.js";
 import { updateCounts } from "./modules/countUpdater.js";

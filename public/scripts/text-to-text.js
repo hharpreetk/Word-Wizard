@@ -1,4 +1,4 @@
-// public/js/text-to-text.js
+// public/scripts/text-to-text.js
 
 import { toggleNav, resetNavOnResize } from "./modules/navMenuHandler.js";
 import { setupConversionButtons } from "./modules/domHandler.js";
