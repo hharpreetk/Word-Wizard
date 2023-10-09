@@ -1,6 +1,10 @@
-# Word Wizard Web Application
+# Word Wizard
 
 Word Wizard is a web application that offers various text processing and analysis tools. It provides features such as text summarization, text-to-speech conversion, text-to-text conversion, text analysis (including word frequency analysis, sentiment analysis, part-of-speech analysis, and named entity recognition), and more.
+
+## Demo
+
+[demo.webm](https://github.com/hharpreetk/word-wizard/assets/68283477/aa3ee3b8-f727-432f-beaf-b74fcdc7a90b)
 
 ## Features
 
