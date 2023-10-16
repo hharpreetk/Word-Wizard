@@ -64,10 +64,6 @@ The Text to Text Conversion offers various transformations for the input text. T
 - node-summarizer library for text summarization.
 - gtts library for text-to-speech conversion.
 
-## Contributing
-
-Contributions to the Word Wizard project are welcome! Feel free to submit pull requests for bug fixes, new features, or improvements.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for details.
